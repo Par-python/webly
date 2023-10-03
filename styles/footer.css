@@ -55,7 +55,10 @@
 .footer-copyright p{
     color:#a0a0a0;
 }
-.footer-copyright button{
+.copyright-description{
+    margin-bottom: 2rem;
+}
+.footer-copyright a{
     margin-right: auto;
     margin-top: 1rem;
     padding: 9px 20px;
@@ -126,7 +129,7 @@
     .footer-copyright p{
         color:#a0a0a0;
     }
-    .footer-copyright button{
+    .footer-copyright a{
         margin-right: auto;
         margin-top: 1rem;
         padding: 9px 20px;

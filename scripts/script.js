@@ -15,7 +15,7 @@ const sectionOne = document.querySelector(".first-page");
 
 const sectionOneOptions = {
     rootMargin: "-500px 0px 0px 0px"
-};
+}; 
 
 const sectionOneObserver = new IntersectionObserver(function(entries, sectionOneObserver){
     entries.forEach(entry => {

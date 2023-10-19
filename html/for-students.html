@@ -8,25 +8,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Hanken+Grotesk:wght@300&family=Work+Sans:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/components.css">
     <link rel="stylesheet" href="/styles/for-students.css">
     <link rel="stylesheet" href="/styles/footer.css">
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 </head>
 <body>   
-    <header>
-            <a href="/html/for-students.html" class="logo">
-                <img src="/images/web.ly_logo.png">
-            </a>
-            <ul class="navbar">
-                <li><a href="#" class="active scrolled">For Students</a></li>
-                <li><a href="#" class="scrolled2">For Businesses </a></li>
-                <li><a href="#" class="scrolled3">About Us</a></li>
-                <li><a href="#" class="scrolled4">Projects</a></li>
-            </ul>
-            <div class="nav-in">
-                <a href="#" class="bth">Get Started</a>
-                <div class="bx bx-menu" id="menu-icon"></div>
-            </div>
+    <header class="main-navigation">
+        <a href="#" class="navigation-logo">
+          <img src="/images/logo-transparent.png" />
+        </a>
+        <ul class="navigation-list">
+          <li>
+            <button class="bx bx-x bx-md" id="menu-close"></button>
+          </li>
+          <li><a href="for-students.html" class="navigation-item active">For Students</a></li>
+          <li><a href="#" class="navigation-item">For Businesses</a></li>
+          <li><a href="#" class="navigation-item">About Us</a></li>
+          <li><a href="projects.html" class="navigation-item">Projects</a></li>
+        </ul>
+        <div class="navigation-control">
+          <a href="https://tinyurl.com/2fdkkz4v" class="navigation-action">Get Started</a>
+          <button class="bx bx-menu bx-md" id="menu-open"></button>
+        </div>
     </header>
     <div class="first-page">
         <div class="info-page">

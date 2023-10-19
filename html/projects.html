@@ -8,34 +8,80 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Hanken+Grotesk:wght@300&family=Work+Sans:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/components.css">
     <link rel="stylesheet" href="/styles/projects.css">
     <link rel="stylesheet" href="/styles/footer.css">
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 </head>
 <body>   
-    <header>
-            <a href="/html/for-students.html" class="logo">
-                <img src="/images/web.ly_logo.png">
-            </a>
-            <ul class="navbar">
-                <li><a href="#" class="active scrolled">For Students</a></li>
-                <li><a href="#" class="scrolled2">For Businesses </a></li>
-                <li><a href="#" class="scrolled3">About Us</a></li>
-                <li><a href="#" class="scrolled4">Projects</a></li>
-            </ul>
-            <div class="nav-in">
-                <a href="#" class="bth">Get Started</a>
-                <div class="bx bx-menu" id="menu-icon"></div>
-            </div>
+    <header class="main-navigation">
+        <a href="#" class="navigation-logo">
+          <img src="/images/logo-transparent.png" />
+        </a>
+        <ul class="navigation-list">
+          <li>
+            <button class="bx bx-x bx-md" id="menu-close"></button>
+          </li>
+          <li><a href="for-students.html" class="navigation-item">For Students</a></li>
+          <li><a href="#" class="navigation-item">For Businesses</a></li>
+          <li><a href="#" class="navigation-item">About Us</a></li>
+          <li><a href="projects.html" class="navigation-item active">Projects</a></li>
+        </ul>
+        <div class="navigation-control">
+          <a href="https://tinyurl.com/2fdkkz4v" class="navigation-action">Get Started</a>
+          <button class="bx bx-menu bx-md" id="menu-open"></button>
+        </div>
     </header>
     <div class="first-page">
         <div class="projects-list">
             <div id="projects-1">
                 <img src="/images/The-Cloud-logo.png">
+                <div class="projects-1-name">
+                    <span>The Cloud</span>
+                </div>
             </div>
             <div id="projects-2">
-                <img src="/images/VeryGoodFood-logo.png">            
+                <img src="/images/VeryGoodFood-logo.png">     
+                <div class="projects-2-name">
+                    <span>VeryGoodFood.co</span>
+                </div>       
             </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-links">
+            <div class="quick-links">
+                <ul>
+                    <li class="title">Quick Links</li>
+                    <li class="links">For Students</li>
+                    <li class="links">For Businesses</li>
+                    <li class="links">About Us</li>
+                    <li class="links">Projects</li>
+                </ul>
+            </div>
+            <div class="contacts">
+                <ul>
+                    <li class="title">Contacts</li>
+                    <li class="contact-contents"><p>Pres J P Laurel Highway, Tanauan, 4232 Batangas</p></li>
+                    <li class="contact-contents"><p>+(63)939 318 8390</p></li>
+                </ul>
+            </div>
+            <div class="contacts">
+                <ul>
+                    <li class="title">Enterprise</li>
+                    <li class="contact-contents"><p>Why Choose Us</p></li>
+                    <li class="contact-contents"><p>Pricing</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <P>
+                Web.ly © All rights reserved 2023
+            </P>
+            <p class="copyright-description">
+                Connect with us so that we can help you with your future business ventures.
+            </p>
+            <a href = "mailto:s2018150005@firstasia.edu.ph?subject = Feedback&body = Message">Contact us</a>
         </div>
     </div>
     <script src="/scripts/script.js"></script>
